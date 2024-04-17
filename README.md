@@ -9,14 +9,15 @@ Well, thanks to our new intuitive approach, you can!
  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="ReactJs" alt="ReactJs" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/vite/vite-original.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
+ <img src="https://github.com/devicons/devicon/blob/master/icons/npm/npm-original-wordmark.svg" title="NPM" alt="NPM" width="40" height="40"/>&nbsp;
  </div>
 
 ## 🎥 Features:
 
-- **Unique Contacts**: Easily create and manage contacts in real-time without worrying about duplicates (email values)
-- **Edit/View**: Simply click anywhere on the contact row to modify contact details as needed.
-- **Responsive Design**: Covers cross-device compatiblity
-- **Persistent Data**: The results are preserved even if the browser is refreshed and/or closed
+- **Unique Contacts** → Arrow Easily create and manage contacts in real-time without worrying about duplicates (email values)
+- **Edit/View** → Simply click anywhere on the contact row to modify contact details as needed.
+- **Responsive Design** → Covers cross-device compatiblity
+- **Persistent Data** → The results are preserved even if the browser is refreshed and/or closed
 
 ## ⇟ Installation:
 
