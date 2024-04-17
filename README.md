@@ -1,9 +1,9 @@
 ## 👤 Contactz
 
-Wouldn't it be great to save and manage your loved ones contacts minus all the hassle?
-Well, thanks to our new intuitive approach, you can!
-
-## TechStack:
+Wouldn't it be great to save and manage your loved ones contacts minus all the hassle? 🤔 <br/>
+Well, thanks to our new intuitive approach - **now you can!** 🎉 
+ 
+## 🧰 TechStack:
 
 <div>
  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="ReactJs" alt="ReactJs" width="40" height="40"/>&nbsp;
@@ -43,12 +43,13 @@ npm run dev
 
 4.  **Access the application in your web browser at `http://localhost:5173`.**
 
-## Demo:
+## ⚙️ Demo:
 
-- Checkout the live [demo](https://graph-housing-prices.vercel.app/)
+**A live demo will be published once repository is set to public**
 
-## TODO:
+## 📝 TODO:
 
 - Fix avatar upload
 - Integrate react-toastify
 - minor alignment styling
+
