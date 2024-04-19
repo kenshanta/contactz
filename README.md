@@ -14,10 +14,10 @@ Well, thanks to our new intuitive approach - **now you can!** 🎉
 
 ## 🎥 Features:
 
-- **Unique Contacts** → Arrow Easily create and manage contacts in real-time without worrying about duplicates (email values)
+- **Unique Contacts** → Easily create and manage contacts in real-time without worrying about duplicates (email values).
 - **Edit/View** → Simply click anywhere on the contact row to modify contact details as needed.
-- **Responsive Design** → Covers cross-device compatiblity
-- **Persistent Data** → The results are preserved even if the browser is refreshed and/or closed
+- **Responsive Design** → Covers cross-device compatiblity.
+- **Persistent Data** → The results are preserved even if the browser is refreshed and/or closed.
 
 ## ⇟ Installation:
 
