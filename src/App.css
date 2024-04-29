@@ -42,8 +42,13 @@ svg {
 }
 
 a {
-  color: #3b76e1;
+  color: #3b76e1
   text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: darken(#3b76e1);
+  text-decoration: underline;
 }
 
 .badge-soft-danger {

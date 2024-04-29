@@ -1,5 +1,5 @@
 import React from "react";
-import { Table } from "react-bootstrap";
+import Table from "react-bootstrap/Table";
 import ContactCard from "./ContactCard";
 import { Contact } from "../interfaces/interfaces";
 
@@ -21,7 +21,7 @@ const ContactTable: React.FC<ContactTableProps> = ({
   const startIndex = (currentPage - 1) * itemsPerPage;
   const displayedContacts = contacts.slice(
     startIndex,
-    startIndex + itemsPerPage
+    startIndex + itemsPerPage,
   );
 
   return (

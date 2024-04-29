@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 
 import ErrorBoundary from "./modules/ErrorBoundary";
 import HomeModule from "./modules/Home";

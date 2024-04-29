@@ -57,7 +57,7 @@ const EditCanvasPanel: React.FC<EditCanvasPanelProps> = ({
     });
     if (exisitngEmailContact) {
       alert(
-        `email already exists for ${exisitngEmailContact.firstName} + ${exisitngEmailContact.lastName}`
+        `email already exists for ${exisitngEmailContact.firstName} + ${exisitngEmailContact.lastName}`,
       );
       return;
     }
@@ -83,11 +83,12 @@ const EditCanvasPanel: React.FC<EditCanvasPanelProps> = ({
                 type="file"
                 accept="image/*"
               />
-              <img src={contactDetails.avatar}></img>
+              <img alt="avatar" src={contactDetails.avatar}></img>
             </Form.Group>
             <Form.Group className="mb-3" controlId="firstName">
               <Form.Label>First name:</Form.Label>
               <Form.Control
+                required
                 defaultValue={contactDetails.firstName}
                 placeholder="First Name"
               />

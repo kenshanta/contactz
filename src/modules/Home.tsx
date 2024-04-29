@@ -13,7 +13,7 @@ const HomeModule: React.FC = () => {
   const [isConfirmationOpen, setIsConfirmationOpen] = useState(false);
   const [contactsList, setContactsList] = useState<Contact[]>(contacts || []);
   const [isContactModalOpen, setIsContactModalOpen] = useState(
-    contacts.length <= 0 ? false : true
+    contacts.length <= 0 ? false : true,
   );
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 9;
@@ -62,13 +62,13 @@ const HomeModule: React.FC = () => {
           item.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
           item.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
           item.lastName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          item.additionalInfo?.toLowerCase().includes(searchTerm.toLowerCase())
+          item.additionalInfo?.toLowerCase().includes(searchTerm.toLowerCase()),
       );
     } else return [];
   }, [contactsList, searchTerm]);
   const displayedData = filteredData.slice(
     (currentPage - 1) * itemsPerPage,
-    currentPage * itemsPerPage
+    currentPage * itemsPerPage,
   );
   return (
     <Container>
@@ -117,7 +117,8 @@ const HomeModule: React.FC = () => {
         <Col sm={6}>
           <div>
             <p className="mb-sm-0">
-              Showing 0 to 10 of {contactsList.length} entries
+              Showing {contactsList.length !== 0 ? currentPage : 0} of{" "}
+              {contactsList.length} entries
             </p>
           </div>
         </Col>

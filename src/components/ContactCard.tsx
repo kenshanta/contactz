@@ -20,7 +20,7 @@ const ContactCard: React.FC<ContactCardProps> = ({
   return contact ? (
     <tr onClick={() => openEditingModal(true)}>
       <td scope="row">
-        <img src={Avatar} />
+        <img alt={contact.id + "avatarContactCard"} />
       </td>
       <td>{contact.firstName}</td>
       <td>{contact.lastName}</td>
@@ -34,7 +34,7 @@ const ContactCard: React.FC<ContactCardProps> = ({
             e.stopPropagation(), openConfirmationModal(false);
           }}
         >
-          <img src={TrashDelete}></img>
+          <img alt="trashcanIcon" src={TrashDelete}></img>
         </Button>
       </td>
     </tr>
