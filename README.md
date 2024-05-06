@@ -19,6 +19,8 @@ Well, thanks to our new intuitive approach - **now you can!** 🎉
 - **Responsive Design** → Covers cross-device compatiblity.
 - **Persistent Data** → The results are preserved even if the browser is refreshed and/or closed.
 
+#### _*Note: data is preserved until deleted manually_
+
 ## ⇟ Installation:
 
 To install and run the project, follow these steps:
