@@ -55,3 +55,9 @@ npm run dev
 - Integrate react-toastify
 - minor alignment styling
 
+## Contributions:
+
+ <a href="https://github.com/kenshanta/contactz/graphs/contributors">
+   <img src="https://contrib.rocks/image?repo=kenshanta/contactz"/>
+ </a>
+
